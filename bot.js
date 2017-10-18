@@ -32,11 +32,13 @@ client.on('message', message => {
 		message.reply('The commands available to you here: http://trymuh.tk');
 	}
 });
+Client.login(proccess.env.BOT_TOKEN);
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'trymuh')) {
 		message.reply('to find out the developers social media: http://trymuh.tk');
 	}
+	
 });
 client.on('message', message => {
 	if (message.author === client.user) return;
