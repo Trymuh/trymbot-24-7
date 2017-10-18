@@ -1,0 +1,23 @@
+{
+  "name": "package",
+  "version": "0.0.1",
+  "description": "TrymBot V1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "authors": "Trymuh & TheTruNightmare",
+  "license": "MIT",
+  "dependencies": {
+    "bufferutil": "^3.0.1",
+    "discord.js": "^11.1.0",
+    "discord.js-commando": "^0.9.0",
+    "discord.js-music": "^1.0.3",
+    "ffmpeg": "0.0.4",
+    "ffplay-static": "^3.2.2",
+    "opusscript": "0.0.3",
+    "ytdl-core": "^0.14.4"
+  },
+  "devDependencies": {},
+  "author": ""
+}
